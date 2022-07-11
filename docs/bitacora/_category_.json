@@ -1,0 +1,9 @@
+{
+  "label": "Bitácora de proyecto",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+  	"slug": "bitacora",
+    "description": "Separamos los avances del proyecto en los distintos checkpoints propuestos por la cátedra.",
+  }
+}
