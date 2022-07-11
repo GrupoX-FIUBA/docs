@@ -58,12 +58,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
             href: 'https://github.com/GrupoX-FIUBA/docs',
             label: 'GitHub',
             position: 'right',
