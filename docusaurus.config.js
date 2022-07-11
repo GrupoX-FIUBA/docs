@@ -54,7 +54,7 @@ const config = {
         title: 'Spotifiuby',
         logo: {
           alt: 'Spotifiuby Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
