@@ -14,7 +14,7 @@ Con el fin de generalizar, automatizar y abstraer lo mayor posible la infraestru
 
 ## Microservicios
 
-Los microservicios se desarrollaron utilizando [FastAPI](https://fastapi.tiangolo.com/) (Python) y [Fastify](https://www.fastify.io/) (Javascript). Para ambos casos, se tienen plantillas en el Github de la organización, las cuales poseen un código esqueleto, los manifiestos necesarios para CI/CD en Github Actions y Kubernetes, y un Readme con instrucciones de configuración y ejecución local.
+Los microservicios se desarrollaron utilizando [FastAPI](https://fastapi.tiangolo.com/) (Python) y [Fastify](https://www.fastify.io/) (Javascript). Para ambos casos, se tienen plantillas[¹](#referencias) en el Github de la organización, las cuales poseen un código esqueleto, los manifiestos necesarios para CI/CD en Github Actions y Kubernetes, y un Readme con instrucciones de configuración y ejecución local.
 
 ### 👤 Usuarios
 
@@ -42,3 +42,8 @@ La misma sirve como intermediaria entre los microservicios y los usuarios (clien
 
 - [API Docs](https://api-gateway-manuelbilbao.cloud.okteto.net/docs)
 - [Github Repo](https://github.com/GrupoX-FIUBA/api-gateway-mobile)
+
+## Referencias
+
+- Plantilla FastAPI: [Github Repo](https://github.com/GrupoX-FIUBA/template-fastapi)
+- Plantilla Fastify: [Github Repo](https://github.com/GrupoX-FIUBA/template-fastify)
