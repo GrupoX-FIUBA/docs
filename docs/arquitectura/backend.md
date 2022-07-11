@@ -44,6 +44,14 @@ La misma sirve como intermediaria entre los microservicios y los usuarios (clien
 - [API Docs](https://api-gateway-manuelbilbao.cloud.okteto.net/docs)
 - [Github Repo](https://github.com/GrupoX-FIUBA/api-gateway-mobile)
 
+## Monitoreo
+
+Para monitorear las peticiones y respuestas de los microservicios y el API Gateway, utilizamos el servicio de [Datadog](https://www.datadoghq.com/), el cual nos brinda un poderoso _log_, además de métricas muy útiles.
+
+También usamos [Upptime](https://upptime.js.org/) para tener un seguimiento del estado de los microservicios, verificando que los servidores estén activos y guardando su tiempo de respuesta. Esta herramienta también nos permite configurar el envío de notificaciones en caso de detectar la baja de un microservicio, y su subsiguiente alta. En nuestro caso, utilizamos esta función para enviar notificaciones a nuestro servidor de Discord.
+
+![Captura de Discord donde se ven las notificaciones de Upptime](/img/upptime.png)
+
 ## Referencias
 
 - Plantilla FastAPI: [Github Repo](https://github.com/GrupoX-FIUBA/template-fastapi)
