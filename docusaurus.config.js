@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Spotifiuby docs',
+  title: 'Spotifiuby',
   tagline: 'Taller de programación II - FIUBA',
   url: 'https://spotifiuby.com.ar',
   baseUrl: '/',
