@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Spotifiuby docs',
   tagline: 'Taller de programación II - FIUBA',
-  url: 'https://docs.spotifiuby.com.ar',
+  url: 'https://spotifiuby.com.ar',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -63,6 +63,58 @@ const config = {
             position: 'right',
           },
         ],
+      },
+      footer: {
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Introducción',
+                to: '/intro',
+              },
+              {
+                label: 'Arquitectura',
+                to: '/arquitectura',
+              },
+              {
+                label: 'Guías de usuario',
+                to: '/guias',
+              },
+              {
+                label: 'Bitácora de proyecto',
+                to: '/bitacora',
+              },
+              {
+                label: 'Análisis postmortem',
+                to: '/postmortem',
+              },
+            ],
+          },
+          {
+            title: 'Software',
+            items: [
+              {
+                label: 'Application',
+                href: 'https://app.spotifiuby.com.ar',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://admin.spotifiuby.com.ar',
+              },
+            ],
+          },
+          {
+            title: 'Más',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/GrupoX-FIUBA',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} Spotifiuby. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

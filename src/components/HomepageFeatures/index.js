@@ -4,45 +4,56 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Documentos',
+    link: '/intro',
+    target: '_self',
+    Svg: require('@site/static/img/documentacion.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Documentación del proyecto, guías de usuario, bitácora y más.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Repositorios',
+    link: 'https://github.com/GrupoX-FIUBA/',
+    Svg: require('@site/static/img/github.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Todos los repositorios se encuentran agrupados en una organización de Github.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Aplicación',
+    link: 'https://app.spotifiuby.com.ar/',
+    Svg: require('@site/static/img/app.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Manual de usuario de la aplicación móvil, wireframes y link de descarga.
+      </>
+    ),
+  },
+  {
+    title: 'Backoffice',
+    link: 'https://admin.spotifiuby.com.ar/',
+    Svg: require('@site/static/img/backoffice.svg').default,
+    description: (
+      <>
+        Panel de administración para controlar usuarios y contenidos, y visualizar métricas.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link, target="_blank"}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h3><a href={link} target={target}>{title}</a></h3>
         <p>{description}</p>
       </div>
     </div>
