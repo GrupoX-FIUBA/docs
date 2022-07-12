@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkspotifiuby=self.webpackChunkspotifiuby||[]).push([[584],{3381:i=>{i.exports=JSON.parse('{"title":"Gu\xedas de usuario","slug":"guia","permalink":"/guia","navigation":{"previous":{"title":"Android APP","permalink":"/arquitectura/android-app"},"next":{"title":"Backoffice","permalink":"/guias/backoffice"}}}')}}]);
